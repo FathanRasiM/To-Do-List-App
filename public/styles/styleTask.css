@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+
+
+body {
+    background-image: url("images/bg1.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: green;
+    width: 100%;
+}
+nav {
+    margin: 20px;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    background-color: white;
+    margin-top: 50px;
+    width: 70%;
+}
+
+
+.container-tasks {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 50px;
+    width: 70%;
+    height:65vh;
+}
+
+.text-create {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+li {
+    list-style: none;
+}
+
+.filled {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.container-form {
+    position: absolute;
+    bottom:200px;
+    left:615px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top:20px;
+    width:300px;
+    height: 300px;
+    background-color: green;
+    border-radius: 25px;
+    visibility:hidden;
+}
+
+.cancel {
+    margin-left: 115px;
+    margin-top:10px;
+}
+
+.task-name {
+    margin-left: 25px;
+}
+
+.label-date, .date-name {
+    margin-top: 25px;
+}
+
+.date-name {
+    width:63%;
+}
+
+.submit-btn {
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+p {
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+footer {
+    background-color: green;
+    position: relative;
+    top:25px;
+    width: 100%;
+}
+
+
